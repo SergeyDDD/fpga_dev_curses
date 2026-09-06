@@ -1,0 +1,17 @@
+Time resolution is 1 ps
+PASSED: STEP3 done
+PASSED: STEP4a done
+PASSED: STEP4b done
+PASSED: STEP5 done
+PASSED: STEP6 done
+PASSED: STEP7 done
+PASSED: STEP_BONUS done
+$finish called at time : 166 ns : File "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_5/Task_1/Task_1.srcs/sim_1/new/tb_counter.sv" Line 177
+PASSED: STEP3 done
+PASSED: STEP4a done
+PASSED: STEP4b done
+PASSED: STEP5 done
+PASSED: STEP6 done
+PASSED: STEP7 done
+PASSED: STEP_BONUS done
+$finish called at time : 166 ns : File "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_5/Task_1/Task_1.srcs/sim_1/new/tb_counter.sv" Line 177

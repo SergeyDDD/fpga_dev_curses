@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Sep  6 21:39:17 2026
+# Process ID         : 49793
+# Current directory  : /home/serhii/workspace/fpga/fpga_dev_curses/lesson_5/Task_1/Task_1.srcs
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_sim/xsim_script.tcl}
+# Log file           : /home/serhii/workspace/fpga/fpga_dev_curses/lesson_5/Task_1/Task_1.srcs/xsim.log
+# Journal file       : /home/serhii/workspace/fpga/fpga_dev_curses/lesson_5/Task_1/Task_1.srcs/xsim.jou
+# Running On         : r9s
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 9 7950X 16-Core Processor
+# CPU Frequency      : 5489.079 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 32799 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41389 MB
+# Available Virtual  : 34992 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_sim/xsim_script.tcl
+# xsim {tb_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASSED: STEP 3 done
+PASSED: STEP4a done
+PASSED: STEP4b done
+PASSED: STEP5 done
+PASSED: STEP6 done
+PASSED: STEP7 done
+$finish called at time : 136 ns : File "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_5/Task_1/Task_1.srcs/sim_1/new/tb_counter.sv" Line 156
+exit
+INFO: xsimkernel Simulation Memory Usage: 279628 KB (Peak: 336192 KB), Simulation CPU Usage: 580 ms
+INFO: [Common 17-206] Exiting xsim at Sun Sep  6 21:39:19 2026...
