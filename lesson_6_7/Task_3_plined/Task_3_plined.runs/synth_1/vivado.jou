@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Sep 15 23:36:46 2026
+# Process ID         : 49019
+# Current directory  : /home/serhii/workspace/fpga/fpga_dev_curses/lesson_6_7/Task_3_plined/Task_3_plined.runs/synth_1
+# Command line       : vivado -log fir_plined.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_plined.tcl
+# Log file           : /home/serhii/workspace/fpga/fpga_dev_curses/lesson_6_7/Task_3_plined/Task_3_plined.runs/synth_1/fir_plined.vds
+# Journal file       : /home/serhii/workspace/fpga/fpga_dev_curses/lesson_6_7/Task_3_plined/Task_3_plined.runs/synth_1/vivado.jou
+# Running On         : r9s
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 9 7950X 16-Core Processor
+# CPU Frequency      : 3012.481 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 32799 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41389 MB
+# Available Virtual  : 32199 MB
+#-----------------------------------------------------------
+source fir_plined.tcl -notrace

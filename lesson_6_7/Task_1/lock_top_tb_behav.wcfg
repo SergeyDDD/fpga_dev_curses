@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lock_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lock_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8.166 ns"></ZoomStartTime>
+      <ZoomEndTime time="504.767 ns"></ZoomEndTime>
+      <Cursor1Time time="197.766 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject type="logic" fp_name="/lock_top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/digit_in">
+      <obj_property name="ElementShortName">digit_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/unlocked_led">
+      <obj_property name="ElementShortName">unlocked_led</obj_property>
+      <obj_property name="ObjectShortName">unlocked_led</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/debounce_ins/digit_in">
+      <obj_property name="ElementShortName">digit_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/lock_clk">
+      <obj_property name="ElementShortName">lock_clk</obj_property>
+      <obj_property name="ObjectShortName">lock_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/debounce_ins/state">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/debounce_ins/next_state">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/debounce_ins/debounce_period">
+      <obj_property name="ElementShortName">debounce_period[1:0]</obj_property>
+      <obj_property name="ObjectShortName">debounce_period[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/decrement_debounce_period">
+      <obj_property name="ElementShortName">decrement_debounce_period</obj_property>
+      <obj_property name="ObjectShortName">decrement_debounce_period</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/reset_debounce_period">
+      <obj_property name="ElementShortName">reset_debounce_period</obj_property>
+      <obj_property name="ObjectShortName">reset_debounce_period</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/debounce_period_finished">
+      <obj_property name="ElementShortName">debounce_period_finished</obj_property>
+      <obj_property name="ObjectShortName">debounce_period_finished</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/debounce_ins/button_pressed">
+      <obj_property name="ElementShortName">button_pressed</obj_property>
+      <obj_property name="ObjectShortName">button_pressed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/lock_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/lock_inst/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/lock_inst/digit_in">
+      <obj_property name="ElementShortName">digit_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lock_top_tb/dut_lock/lock_inst/unlocked_led">
+      <obj_property name="ElementShortName">unlocked_led</obj_property>
+      <obj_property name="ObjectShortName">unlocked_led</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/lock_inst/lock_state">
+      <obj_property name="ElementShortName">lock_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lock_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lock_top_tb/dut_lock/lock_inst/next_lock_state">
+      <obj_property name="ElementShortName">next_lock_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_lock_state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

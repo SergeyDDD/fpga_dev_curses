@@ -1,0 +1,66 @@
+Time resolution is 1 ps
+PASSED: STEP1: reset done
+PASSED: STEP1: debounce reset done
+PASSED: STEP1: reset done
+PASSED: STEP1: debounce reset done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: short press released done
+PASSED: STEP2: short press ignored done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: press accepted done
+PASSED: STEP3: LOCKED -> WAIT_D2 done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: release done
+PASSED: STEP4: wrong digit -> LOCKED done
+PASSED: STEP5: LOCKED -> WAIT_D2 done
+PASSED: STEP5: WAIT_D2 -> WAIT_D3 done
+PASSED: STEP5: WAIT_D3 -> UNLOCKED done
+PASSED: STEP6: reset from UNLOCKED done
+$finish called at time : 422 ns : File "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_6_7/Task_1/Task_1.srcs/sim_1/new/lock_top_tb.sv" Line 171
+PASSED: STEP1: reset done
+PASSED: STEP1: debounce reset done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: no early pulse done
+PASSED: STEP2: short press released done
+PASSED: STEP2: short press ignored done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: debounce delay done
+PASSED: STEP3: press accepted done
+PASSED: STEP3: LOCKED -> WAIT_D2 done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: held output done
+PASSED: STEP3: no repeated digit done
+PASSED: STEP3: release done
+PASSED: STEP4: wrong digit -> LOCKED done
+PASSED: STEP5: LOCKED -> WAIT_D2 done
+PASSED: STEP5: WAIT_D2 -> WAIT_D3 done
+PASSED: STEP5: WAIT_D3 -> UNLOCKED done
+PASSED: STEP6: reset from UNLOCKED done
+$finish called at time : 422 ns : File "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_6_7/Task_1/Task_1.srcs/sim_1/new/lock_top_tb.sv" Line 171
+INFO: xsimkernel Simulation Memory Usage: 291660 KB (Peak: 338424 KB), Simulation CPU Usage: 620 ms
