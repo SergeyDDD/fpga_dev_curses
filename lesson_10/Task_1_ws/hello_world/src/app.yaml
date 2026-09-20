@@ -1,0 +1,4 @@
+domain_path: /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/export/platform/sw/standalone_ps7_cortexa9_0
+app_src_dir: /home/serhii/Xilinx/2025.2/Vitis/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world
+lang: c

@@ -1,0 +1,13 @@
+create libxil.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xadcps/src/libxadcps.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/tmrctr/src/libtmrctr.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scuwdt/src/libscuwdt.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scutimer/src/libscutimer.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/dmaps/src/libdmaps.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/devcfg/src/libdevcfg.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/lesson_10/Task_1_ws/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+save
+end
