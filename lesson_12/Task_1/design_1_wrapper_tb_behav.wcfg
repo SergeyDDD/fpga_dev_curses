@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_1_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_datamover_pkg" />
+            <top_module name="axi_dma_pkg" />
+            <top_module name="design_1_wrapper_tb" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="73.666666 us"></ZoomStartTime>
+      <ZoomEndTime time="5,039.666667 us"></ZoomEndTime>
+      <Cursor1Time time="4,212.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/clk_50m">
+      <obj_property name="ElementShortName">clk_50m</obj_property>
+      <obj_property name="ObjectShortName">clk_50m</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/pix_clk">
+      <obj_property name="ElementShortName">pix_clk</obj_property>
+      <obj_property name="ObjectShortName">pix_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/reset_rtl_0">
+      <obj_property name="ElementShortName">reset_rtl_0</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/gpio_rtl_0_tri_i">
+      <obj_property name="ElementShortName">gpio_rtl_0_tri_i[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_rtl_0_tri_i[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/pix_data_0">
+      <obj_property name="ElementShortName">pix_data_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_data_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/pix_start_frame_0">
+      <obj_property name="ElementShortName">pix_start_frame_0</obj_property>
+      <obj_property name="ObjectShortName">pix_start_frame_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/streamer_top_0/inst/capture/stream_state">
+      <obj_property name="ElementShortName">stream_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stream_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi4_full_ram_0/inst/s_axi_wready">
+      <obj_property name="ElementShortName">s_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+   </wvobject>
+</wave_config>
