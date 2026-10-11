@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="moving_max_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="moving_max_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,721.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/moving_max_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/ap_start">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/ap_done">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/ap_idle">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/ap_ready">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/in_data_address0">
+      <obj_property name="ElementShortName">in_data_address0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data_address0[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/out_data_address0">
+      <obj_property name="ElementShortName">out_data_address0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_address0[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/in_data_ce0">
+      <obj_property name="ElementShortName">in_data_ce0</obj_property>
+      <obj_property name="ObjectShortName">in_data_ce0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/out_data_ce0">
+      <obj_property name="ElementShortName">out_data_ce0</obj_property>
+      <obj_property name="ObjectShortName">out_data_ce0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/moving_max_tb/out_data_we0">
+      <obj_property name="ElementShortName">out_data_we0</obj_property>
+      <obj_property name="ObjectShortName">out_data_we0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/in_data_q0">
+      <obj_property name="ElementShortName">in_data_q0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data_q0[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/out_data_d0">
+      <obj_property name="ElementShortName">out_data_d0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_d0[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/q_a">
+      <obj_property name="ElementShortName">q_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/q_b">
+      <obj_property name="ElementShortName">q_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/golden">
+      <obj_property name="ElementShortName">golden[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">golden[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/t">
+      <obj_property name="ElementShortName">t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/n">
+      <obj_property name="ElementShortName">n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/errors">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/seed">
+      <obj_property name="ElementShortName">seed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seed[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/N_SAMPLES">
+      <obj_property name="ElementShortName">N_SAMPLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N_SAMPLES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/WINDOW">
+      <obj_property name="ElementShortName">WINDOW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WINDOW[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/moving_max_tb/RD_LAT">
+      <obj_property name="ElementShortName">RD_LAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_LAT[31:0]</obj_property>
+   </wvobject>
+</wave_config>

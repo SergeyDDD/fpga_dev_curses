@@ -1,0 +1,120 @@
+
+
+================================================================
+== Synthesis Summary Report of 'moving_max'
+================================================================
++ General Information: 
+    * Date:           Sun Oct 11 20:14:54 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        moving_max_component
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++----------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+----------+-----+
+|              Modules             | Issue|               | Iteration|         | Trip |          |      Latency      |      |      |    |           |          |     |
+|              & Loops             | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|   (ns)  | Slack| BRAM | DSP|     FF    |    LUT   | URAM|
++----------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+----------+-----+
+|+ moving_max                      |     -|              -|         -|       80|     -|        no|       79|  790.000|  0.80|     -|   -|  576 (~0%)|  746 (1%)|    -|
+| + moving_max_Pipeline_MAIN_LOOP  |     -|              -|         -|        -|     -|       yes|       69|  690.000|  0.80|     -|   -|  568 (~0%)|  691 (1%)|    -|
+|  o MAIN_LOOP                     |     -|              -|         5|        1|    64|       yes|       67|  670.000|  7.30|     -|   -|          -|         -|    -|
+| o INIT_LOOP                      |     -|              -|         1|        -|     8|        no|        8|   80.000|  7.30|     -|   -|          -|         -|    -|
++----------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+----+-----------+----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++-------------------+-----------+----------+
+| Port              | Direction | Bitwidth |
++-------------------+-----------+----------+
+| in_data_address0  | out       | 6        |
+| in_data_q0        | in        | 32       |
+| out_data_address0 | out       | 6        |
+| out_data_d0       | out       | 32       |
++-------------------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| in_data  | in        | int*     |
+| out_data | out       | int*     |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+-------------------+---------+----------+
+| Argument | HW Interface      | HW Type | HW Usage |
++----------+-------------------+---------+----------+
+| in_data  | in_data_address0  | port    | offset   |
+| in_data  | in_data_ce0       | port    |          |
+| in_data  | in_data_q0        | port    |          |
+| out_data | out_data_address0 | port    | offset   |
+| out_data | out_data_ce0      | port    |          |
+| out_data | out_data_we0      | port    |          |
+| out_data | out_data_d0       | port    |          |
++----------+-------------------+---------+----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------------------+-----+--------+-------------+--------+----------+---------+
+| Name                             | DSP | Pragma | Variable    | Op     | Impl     | Latency |
++----------------------------------+-----+--------+-------------+--------+----------+---------+
+| + moving_max                     | 0   |        |             |        |          |         |
+|   icmp_ln11_fu_74_p2             |     |        | icmp_ln11   | seteq  | auto     | 0       |
+|   add_ln11_fu_80_p2              |     |        | add_ln11    | add    | fabric   | 0       |
+|  + moving_max_Pipeline_MAIN_LOOP | 0   |        |             |        |          |         |
+|    icmp_ln18_fu_193_p2           |     |        | icmp_ln18   | seteq  | auto     | 0       |
+|    add_ln18_fu_199_p2            |     |        | add_ln18    | add    | fabric   | 0       |
+|    icmp_ln35_fu_224_p2           |     |        | icmp_ln35   | setgt  | auto     | 0       |
+|    max_data_1_fu_230_p3          |     |        | max_data_1  | select | auto_sel | 0       |
+|    icmp_ln35_1_fu_238_p2         |     |        | icmp_ln35_1 | setgt  | auto     | 0       |
+|    max_data_2_fu_244_p3          |     |        | max_data_2  | select | auto_sel | 0       |
+|    icmp_ln35_2_fu_273_p2         |     |        | icmp_ln35_2 | setgt  | auto     | 0       |
+|    max_data_3_fu_277_p3          |     |        | max_data_3  | select | auto_sel | 0       |
+|    icmp_ln35_3_fu_283_p2         |     |        | icmp_ln35_3 | setgt  | auto     | 0       |
+|    max_data_4_fu_289_p3          |     |        | max_data_4  | select | auto_sel | 0       |
+|    icmp_ln35_4_fu_309_p2         |     |        | icmp_ln35_4 | setgt  | auto     | 0       |
+|    max_data_5_fu_313_p3          |     |        | max_data_5  | select | auto_sel | 0       |
+|    icmp_ln35_5_fu_319_p2         |     |        | icmp_ln35_5 | setgt  | auto     | 0       |
+|    max_data_6_fu_325_p3          |     |        | max_data_6  | select | auto_sel | 0       |
+|    icmp_ln35_6_fu_340_p2         |     |        | icmp_ln35_6 | setgt  | auto     | 0       |
+|    max_data_7_fu_345_p3          |     |        | max_data_7  | select | auto_sel | 0       |
++----------------------------------+-----+--------+-------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++----------+---------+-------------------------------------------------+
+| Type     | Options | Location                                        |
++----------+---------+-------------------------------------------------+
+| PIPELINE | ii=1    | in moving_max (../cpp_source/moving_max.cpp:19) |
++----------+---------+-------------------------------------------------+
+
+

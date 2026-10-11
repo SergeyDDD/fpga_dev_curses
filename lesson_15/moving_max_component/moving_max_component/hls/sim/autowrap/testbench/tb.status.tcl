@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/hls/./sim/autowrap/testbench/moving_max.cpp_pre.cpp.tb.cpp

@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component",
+    "arguments": [
+      "/home/serhii/Xilinx/2025.2/Vitis/lnx64/tools/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/serhii/Xilinx/2025.2/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/serhii/Xilinx/2025.2/Vitis/common/technology/autopilot",
+      "-fhlstoplevel=moving_max",
+      "-c",
+      "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max.cpp"
+    ],
+    "file": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max.cpp"
+  },
+  {
+    "directory": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component",
+    "arguments": [
+      "/home/serhii/Xilinx/2025.2/Vitis/lnx64/tools/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/serhii/Xilinx/2025.2/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/home/serhii/Xilinx/2025.2/Vitis/include",
+      "-c",
+      "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max_tb.cpp"
+    ],
+    "file": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max_tb.cpp"
+  }
+]

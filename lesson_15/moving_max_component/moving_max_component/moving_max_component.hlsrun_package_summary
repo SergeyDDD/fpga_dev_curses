@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/moving_max_component.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sun Oct 11 20:16:53 2026",
+ "timestampMillis": "1791739013436",
+ "buildStep": {
+  "cmdId": "64dfef94-6dae-469d-8d5a-77d1d75f8cb6",
+  "name": "vitis-run",
+  "logFile": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/logs/moving_max_component.steps.log",
+  "commandLine": "/home/serhii/Xilinx/2025.2/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/hls_config.cfg --work_dir moving_max_component ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/hls_config.cfg",
+   "--work_dir",
+   "moving_max_component"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 11 20:16:53 2026",
+ "timestampMillis": "1791739013436",
+ "status": {
+  "cmdId": "64dfef94-6dae-469d-8d5a-77d1d75f8cb6",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sun Oct 11 20:16:55 2026",
+ "timestampMillis": "1791739015120",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/moving_max.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max.cpp",
+     "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sun Oct 11 20:16:55 2026",
+ "timestampMillis": "1791739015120",
+ "buildStep": {
+  "cmdId": "c1f04059-0fbd-47d0-8335-24d9e80d6d33",
+  "name": "",
+  "logFile": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 11 20:16:55 2026",
+ "timestampMillis": "1791739015120",
+ "status": {
+  "cmdId": "c1f04059-0fbd-47d0-8335-24d9e80d6d33",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 11 20:16:58 2026",
+ "timestampMillis": "1791739018462",
+ "status": {
+  "cmdId": "c1f04059-0fbd-47d0-8335-24d9e80d6d33",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun Oct 11 20:16:58 2026",
+ "timestampMillis": "1791739018527",
+ "status": {
+  "cmdId": "64dfef94-6dae-469d-8d5a-77d1d75f8cb6",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun Oct 11 20:16:58 2026",
+ "timestampMillis": "1791739018527",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun Oct 11 20:16:58 2026",
+ "timestampMillis": "1791739018527",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

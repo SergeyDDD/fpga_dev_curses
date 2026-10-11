@@ -1,0 +1,28 @@
+---
+MainSourceFile:  '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/hls/.autopilot/db/moving_max.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_23_1:  '
+      FilePath:        '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max.cpp'
+      FileOffset:      23
+      Replacements:
+        - FilePath:        '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/hls/.autopilot/db/moving_max.pp.0.cpp'
+          Offset:          15779
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_23_1: '
+    Level:           Remark
+    BuildDirectory:  '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_34_2:  '
+      FilePath:        '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/cpp_source/moving_max.cpp'
+      FileOffset:      34
+      Replacements:
+        - FilePath:        '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/moving_max_component/hls/.autopilot/db/moving_max.pp.0.cpp'
+          Offset:          15944
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_34_2: '
+    Level:           Remark
+    BuildDirectory:  '/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component'
+...

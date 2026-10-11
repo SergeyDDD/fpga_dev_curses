@@ -1,0 +1,3 @@
+relativeroot=/home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component
+original_argv=--mode hls --package --config /home/serhii/workspace/fpga/fpga_dev_curses/lesson_15/moving_max_component/hls_config.cfg --work_dir moving_max_component 
+
