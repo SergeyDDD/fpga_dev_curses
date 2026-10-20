@@ -1,0 +1,15 @@
+axi_bram_ctrl_0:
+- axi_bram_ctrl
+- bram
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
+hub75_controller_0:
+- hub75_controller
+- None
+microblaze_0_axi_intc:
+- axi_intc
+- intc
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram

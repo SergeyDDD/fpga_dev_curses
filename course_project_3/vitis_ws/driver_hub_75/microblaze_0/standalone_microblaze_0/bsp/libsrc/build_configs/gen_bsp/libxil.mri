@@ -1,0 +1,6 @@
+create libxil.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/course_project_3/vitis_ws/driver_hub_75/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartlite/src/libuartlite.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/course_project_3/vitis_ws/driver_hub_75/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/intc/src/libintc.a
+addlib /home/serhii/workspace/fpga/fpga_dev_curses/course_project_3/vitis_ws/driver_hub_75/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+save
+end
